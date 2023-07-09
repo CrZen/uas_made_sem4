@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Riverpod Example',
+      title: 'State Management Riverpod',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: MyHomePage(),
     );
@@ -27,7 +27,7 @@ class MyHomePage extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Riverpod Example'),
+        title: Text('State Management Riverpod'),
       ),
       body: Center(
         child: Column(
